@@ -1,0 +1,84 @@
+.bg-image {
+    /* The image used */
+    background-image: url("../../assets/images/7105550.png");
+    
+    
+  
+    
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .category
+    {
+        border-left: 4px solid #ff7400;
+        display: -moz-box;
+        display: flex;
+        -moz-box-pack: justify;
+        justify-content: space-between;
+        -moz-box-align: center;
+        align-items: center;
+        padding-left: 8px;
+        margin-left: 228px;
+        margin-top: 33px
+    
+  }
+
+
+  .mat-mdc-card{
+    background-color: aliceblue !important;
+  }
+
+  .viewAll
+    {
+        color: #ff7400;
+        text-align: right;
+        padding-left: 16px;
+    }
+
+    .tab{
+        color: #ff7400;
+        border-bottom: 3px solid #ff7400;
+        text-transform: none;
+        letter-spacing: .5px;
+        color: rgba(17,17,17,.3);
+        font-size: 16px;
+        font-weight: 700;
+        padding: 4px 1px;
+        margin: 0 16px;
+        cursor: pointer;
+    }
+
+    /* .nextStep{
+    display: flex;
+    -moz-box-pack: center;
+    justify-content: center;
+    -moz-box-align: center;
+    align-items: center;
+    min-width: 32px;
+    max-width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: -webkit-gradient(linear,left top,right top,color-stop(28.12%,#ff7400),to(#f91717));
+    background: -webkit-linear-gradient(left,#ff7400 28.12%,#f91717);
+    background: -moz-linear-gradient(left,#ff7400 28.12%,#f91717 100%);
+    background: linear-gradient(90deg,#ff7400 28.12%,#f91717);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+    color: #fff;
+    font-size: 24px;
+    } */
+
+    img{
+        margin-left: 40px;
+    }
+  
+    #navbarNav{
+        margin-left: 10px;
+    }
