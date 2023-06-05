@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 import { LoginPageComponent } from '../login-page/login-page.component';
 import { CreateCampaignComponent } from '../create-campaign/create-campaign.component';
+import { ManageCampaignComponent } from '../manage-campaign/manage-campaign.component';
 
 @Component({
   selector: 'app-home',
@@ -25,6 +26,12 @@ export class HomeComponent {
     const dialogConfig = new MatDialogConfig();
     dialogConfig.width = '550px';
     this.dialog.open(CreateCampaignComponent,dialogConfig)
+  }
+
+  manageCampaign(){
+    const dialogConfig = new MatDialogConfig();
+    dialogConfig.width = '550px';
+    this.dialog.open(ManageCampaignComponent,dialogConfig)
   }
 
 }
